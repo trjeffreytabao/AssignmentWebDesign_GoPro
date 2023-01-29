@@ -4,6 +4,7 @@
 
 html,
 body {
+  font-family: "Roboto", sans-serif;
   margin: 0 auto;
   padding: 0;
   width: 100%;
@@ -27,17 +28,18 @@ p {
 .highlighted_title_dark {
   margin-top: 50px;
   background-color: #006d77;
-  width: 188px;
+  width: 210px;
   height: 36px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 16px;
+  font-weight: 500;
 }
 
 .highlighted_title_light {
   background-color: #bee1e6;
-  width: 188px;
+  width: 210px;
   height: 36px;
   display: flex;
   justify-content: center;
@@ -86,11 +88,11 @@ p {
 
 header {
   display: flex;
-  max-width: 1250px;
-  margin: 30px auto;
+  max-width: 1350px;
+  margin: 40px auto;
 }
 header .brand_logo {
-  margin-right: 40px;
+  margin-right: 30px;
 }
 header .nav_links {
   display: flex;
@@ -101,24 +103,28 @@ header ul {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  margin-right: 30px;
 }
 header ul .btn_Home {
   margin-right: 37px;
+  margin-left: 20px;
+  color: #006d77;
 }
 header ul li {
+  font-weight: 600;
   margin-right: 58px;
 }
 header ul li img {
+  margin-bottom: 3px;
   margin-left: 7.5px;
 }
 header .btn_Get_Started_Container {
-  width: 177px;
+  width: 170px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 header .btn_Get_Started_Container .btn_Get_Started {
+  font-weight: 600;
   width: 133px;
   height: 38px;
   background-color: #bee1e6;
@@ -129,6 +135,7 @@ header .btn_Get_Started_Container .btn_Get_Started {
   align-items: center;
 }
 header .btn_Get_Started_Container img {
+  margin-bottom: 1px;
   margin-left: 8px;
   width: 12px;
   height: 12px;
@@ -165,7 +172,7 @@ main .container_text_section .paragraph_text_section {
 main .container_text_section .paragraph_text_section p {
   font-size: 16px;
   font-weight: 300;
-  line-height: 20px;
+  line-height: 24px;
 }
 main .container_text_section .btn_container_text_section {
   margin-top: 40px;
@@ -175,11 +182,12 @@ main .container_text_section .btn_container_text_section {
   gap: 70px;
 }
 main .container_text_section .btn_container_text_section .btn {
-  height: 58px;
+  height: 56px;
   border: 1px solid black;
-  padding: 20px 32px 20px 32px;
+  padding: 35px 43px 35px 43px;
   border-radius: 8px;
   display: flex;
+  align-items: center;
 }
 main .container_text_section .btn_container_text_section img {
   margin-left: 8px;
@@ -189,6 +197,7 @@ main .container_text_section .btn_container_text_section .Btn_Get_Started {
   color: white;
 }
 main .container_text_section .btn_container_text_section .Btn_How_It_works {
+  font-weight: 600;
   background-color: transparent;
   color: black;
   border: 1px solid #006d77;
@@ -278,7 +287,7 @@ main .container_picture_section .mini_picture img {
   width: 100%;
 }
 .section_container_Two_Testimony .picture_section_container {
-  width: 658px;
+  width: 650px;
   position: relative;
   padding: 5px;
   height: 590px;
@@ -305,12 +314,12 @@ main .container_picture_section .mini_picture img {
   border-radius: 20px;
 }
 .section_container_Two_Testimony .text_section_container {
-  width: 450px;
+  width: 458px;
   padding-left: 20px;
 }
 .section_container_Two_Testimony .text_section_container .highlighted_title_light {
   color: black;
-  font-weight: 500;
+  font-weight: 600;
   font-style: normal;
 }
 .section_container_Two_Testimony .text_section_container .title_container h2 {
@@ -406,14 +415,14 @@ main .container_picture_section .mini_picture img {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 900%;
 }
 .encouragement_section_container .encourangement_content_container .encourangement_paragraph_container p {
   font-weight: 300;
   font-size: 16px;
   line-height: 24.03px;
   text-align: center;
-  width: 50%;
+  width: 60%;
 }
 
 .testimonials_section_container {
@@ -435,7 +444,7 @@ main .container_picture_section .mini_picture img {
   padding-left: 15px;
 }
 .testimonials_section_container .testimonial_content .testimonial_box .paragraph_testimonial {
-  padding-left: 67px;
+  padding-left: 60px;
 }
 .testimonials_section_container .testimonial_content .testimonial_person_one {
   order: 1;
@@ -453,17 +462,19 @@ main .container_picture_section .mini_picture img {
   width: 100%;
 }
 .Last_testimonials_section .Last_testimonials_text_section {
-  width: 600px;
+  width: 610px;
 }
 .Last_testimonials_section .Last_testimonials_text_section .highlighted_title_light {
   margin-top: 30px;
   margin-bottom: 31px;
+  font-weight: 600;
 }
 .Last_testimonials_section .Last_testimonials_text_section .Last_testimonials_main_text {
   font-weight: 600;
   font-size: 33px;
   text-align: justify;
   margin-bottom: 31px;
+  width: 100%;
 }
 .Last_testimonials_section .Last_testimonials_text_section .paragraph_last_testimonials {
   width: 100%;
@@ -476,23 +487,25 @@ main .container_picture_section .mini_picture img {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 70px;
 }
 .Last_testimonials_section .Last_testimonials_text_section .two_person_last_testimonial_container .testimonial_person_one {
-  width: 250px;
+  width: 270px;
 }
 .Last_testimonials_section .Last_testimonials_text_section .two_person_last_testimonial_container .testimonial_person_one .paragraph_testimonial_person_one {
   padding-left: 0;
+  margin-top: 10px;
 }
 .Last_testimonials_section .Last_testimonials_text_section .two_person_last_testimonial_container .testimonial_person_two {
-  width: 250px;
+  width: 270px;
 }
 .Last_testimonials_section .Last_testimonials_text_section .two_person_last_testimonial_container .testimonial_person_two .paragraph_testimonial_person_two {
+  margin-top: 10px;
   padding-left: 0;
 }
 .Last_testimonials_section .Last_testimonials_picture_section {
   position: relative;
-  width: 509px;
+  width: 499px;
   height: 550px;
 }
 .Last_testimonials_section .Last_testimonials_picture_section .two_picture_container {
@@ -562,7 +575,7 @@ footer .container_footer_content .column1 .paragraph {
   font-weight: 300;
   line-height: 24px;
   color: #444444;
-  width: 85%;
+  width: 95%;
 }
 footer .container_footer_content .about_us {
   justify-content: center;

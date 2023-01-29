@@ -4,6 +4,7 @@
 
 html,
 body {
+  font-family: "Roboto", sans-serif;
   margin: 0 auto;
   padding: 0;
   width: 100%;
@@ -24,17 +25,18 @@ p {
 .highlighted_title_dark {
   margin-top: 50px;
   background-color: #006d77;
-  width: 188px;
+  width: 210px;
   height: 36px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 16px;
+  font-weight: 500;
 } // para sa mga parang button na titles
 
 .highlighted_title_light {
   background-color: #bee1e6;
-  width: 188px;
+  width: 210px;
   height: 36px;
   display: flex;
   justify-content: center;
@@ -86,10 +88,10 @@ p {
 //start header
 header {
   display: flex;
-  max-width: 1250px;
-  margin: 30px auto;
+  max-width: 1350px;
+  margin: 40px auto;
   .brand_logo {
-    margin-right: 40px;
+    margin-right: 30px;
   }
   .nav_links {
     display: flex;
@@ -100,24 +102,28 @@ header {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    margin-right: 30px;
 
     .btn_Home {
       margin-right: 37px;
+      margin-left: 20px;
+      color: #006d77;
     }
     li {
+      font-weight: 600;
       margin-right: 58px;
       img {
+        margin-bottom: 3px;
         margin-left: 7.5px;
       }
     }
   }
   .btn_Get_Started_Container {
-    width: 177px;
+    width: 170px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     .btn_Get_Started {
+      font-weight: 600;
       width: 133px;
       height: 38px;
       background-color: #bee1e6;
@@ -128,6 +134,7 @@ header {
       align-items: center;
     }
     img {
+      margin-bottom: 1px;
       margin-left: 8px;
       width: 12px;
       height: 12px;
@@ -163,7 +170,7 @@ main {
       p {
         font-size: 16px;
         font-weight: 300;
-        line-height: 20px;
+        line-height: 24px;
       }
     }
     .btn_container_text_section {
@@ -173,11 +180,12 @@ main {
       justify-content: flex-start;
       gap: 70px;
       .btn {
-        height: 58px;
+        height: 56px;
         border: 1px solid black;
-        padding: 20px 32px 20px 32px;
+        padding: 35px 43px 35px 43px;
         border-radius: 8px;
         display: flex;
+        align-items: center;
       }
       img {
         margin-left: 8px;
@@ -187,6 +195,7 @@ main {
         color: white;
       }
       .Btn_How_It_works {
+        font-weight: 600;
         background-color: transparent;
         color: black;
         border: 1px solid #006d77;
@@ -280,7 +289,7 @@ main {
   margin-top: 100px;
   width: 100%;
   .picture_section_container {
-    width: 658px;
+    width: 650px;
     position: relative;
     padding: 5px;
     height: 590px;
@@ -308,11 +317,11 @@ main {
   }
 
   .text_section_container {
-    width: 450px;
+    width: 458px;
     padding-left: 20px;
     .highlighted_title_light {
       color: black;
-      font-weight: 500;
+      font-weight: 600;
       font-style: normal;
     }
     .title_container h2 {
@@ -413,13 +422,13 @@ main {
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 100%;
+      width: 900%;
       p {
         font-weight: 300;
         font-size: 16px;
         line-height: 24.03px;
         text-align: center;
-        width: 50%;
+        width: 60%;
       }
     }
   }
@@ -447,7 +456,7 @@ main {
         padding-left: 15px;
       }
       .paragraph_testimonial {
-        padding-left: 67px;
+        padding-left: 60px;
       }
     }
     .testimonial_person_one {
@@ -471,16 +480,18 @@ main {
   background-color: rgb(220, 246, 250);
   width: 100%;
   .Last_testimonials_text_section {
-    width: 600px;
+    width: 610px;
     .highlighted_title_light {
       margin-top: 30px;
       margin-bottom: 31px;
+      font-weight: 600;
     }
     .Last_testimonials_main_text {
       font-weight: 600;
       font-size: 33px;
       text-align: justify;
       margin-bottom: 31px;
+      width: 100%;
     }
     .paragraph_last_testimonials {
       width: 100%;
@@ -493,16 +504,18 @@ main {
       display: flex;
       justify-content: space-evenly;
       flex-wrap: wrap;
-      gap: 30px;
+      gap: 70px;
       .testimonial_person_one {
-        width: 250px;
+        width: 270px;
         .paragraph_testimonial_person_one {
           padding-left: 0;
+          margin-top: 10px;
         }
       }
       .testimonial_person_two {
-        width: 250px;
+        width: 270px;
         .paragraph_testimonial_person_two {
+          margin-top: 10px;
           padding-left: 0;
         }
       }
@@ -510,7 +523,7 @@ main {
   }
   .Last_testimonials_picture_section {
     position: relative;
-    width: 509px;
+    width: 499px;
     height: 550px;
     .two_picture_container {
       position: relative;
@@ -581,7 +594,7 @@ footer {
         font-weight: 300;
         line-height: 24px;
         color: #444444;
-        width: 85%;
+        width: 95%;
       }
     }
     .about_us {
